@@ -1,35 +1,6 @@
 
 
-capitals = {'USA':'Washington DC', 'Brazil': 'brasilia', "China":"Beijing", "Russia":"Moscow"}
-
-#print(capitals["Germany"])
-
-print(capitals.get('Germany'))
-
-print(capitals.keys())
-print(capitals.values())
-print(capitals.items())
+dicio = {'chave1': 'valor1', 'chave2':'valor2'}
 
 
-for key, value in capitals.items():
-    print(key, value)
-
-capitals.update({"Germany": "Berlim"})
-print(" ")
-
-
-for key, value in capitals.items():
-    print(key, value)
-
-capitals.update({"USA":"Las vegas"})
-print()
-for key, value in capitals.items():
-    print(key, value)
-
-capitals.pop("USA")
-
-print()
-
-for key, value in capitals.items():
-    print(key, value)
-
+print(dicio['chave1'])
